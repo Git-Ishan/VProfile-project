@@ -44,32 +44,20 @@ After setup, validate that **Nginx**, **Tomcat**, the **Application**, and the *
 Above, we performed all steps manually: SSH-ing into each VM and entering commands. Using scripts, we can automate this entire process, running it with a single command. **Vagrant handles all the heavy lifting**, and we just wait for the setup to complete.
 
 
-[User]
+Project setup and stacks
 
-│
+<img width="1016" height="616" alt="Vprofile project setup" src="https://github.com/user-attachments/assets/2952974d-2cf1-428c-b01e-9acb2e5470f3" />
 
-▼
+Login page
 
-[Nginx Load Balancer]
+<img width="1120" height="616" alt="login" src="https://github.com/user-attachments/assets/bdcce629-324f-42f0-a619-ff286c514954" />
 
-│
+<img width="1120" height="664" alt="welcome" src="https://github.com/user-attachments/assets/872d2512-7485-4981-b47a-b9fffae65210" />
 
-▼
+Memcache is working
 
-[Apache Tomcat (Application)]
+<img width="1095" height="590" alt="memcache is working" src="https://github.com/user-attachments/assets/e8bb0ad4-f813-4584-8887-a948153dfb6c" />
 
-│
+Rabbitmq is working 
 
-│
-
-▼
-▼
-
-[MySQL DB] [RabbitMQ]
-
-│
-
-▼
-
-[Memcached (Cache)]
-
+<img width="943" height="482" alt="rabbitmq is working" src="https://github.com/user-attachments/assets/29c5688f-8f9a-4981-8f57-d3ee5fe27eda" />
